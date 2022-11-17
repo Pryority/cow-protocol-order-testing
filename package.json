@@ -1,15 +1,15 @@
 {
-  "name": "smart-order",
-  "private": true,
-  "scripts": {
-    "deploy": "hardhat run scripts/deploy.js --network goerli",
-    "place-order": "hardhat run scripts/placeOrder.js --network goerli",
-    "cancel-order": "hardhat run scripts/cancelOrder.js --network goerli",
-    "test": "hardhat test"
+  "name": "dappcon-2022-smart-orders",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
   },
-  "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
-    "hardhat": "^2.11.1",
-    "node-fetch": "^2.6.7"
-  }
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
